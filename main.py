@@ -17,6 +17,7 @@ x = sm.add_constant(x1)
 results = sm.OLS(y,x).fit()
 print(results.summary())
 print("aimona")
+print("ossa")
 
 plt.scatter(x1,y)
 plt.xlabel('SAT',fontsize=20)
